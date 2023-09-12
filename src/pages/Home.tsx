@@ -1,22 +1,51 @@
-import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar } from '@ionic/react';
-import ExploreContainer from '../components/ExploreContainer';
-import './Home.css';
+import {
+  IonContent,
+  IonPage,
+  IonGrid,
+  IonButton,
+  IonCol,
+  IonRow,
+  IonIcon,
+  IonText
+} from "@ionic/react";
+import React from "react";
+import { logoIonic } from 'ionicons/icons';
 
 const Home: React.FC = () => {
+
+
+
   return (
     <IonPage>
-      <IonHeader>
-        <IonToolbar>
-          <IonTitle>Blank</IonTitle>
-        </IonToolbar>
-      </IonHeader>
-      <IonContent fullscreen>
-        <IonHeader collapse="condense">
-          <IonToolbar>
-            <IonTitle size="large">Blank</IonTitle>
-          </IonToolbar>
-        </IonHeader>
-        <ExploreContainer />
+      <IonContent className="ion-padding">
+        <IonGrid>
+          <IonRow>
+            <IonCol className="ion-text-center">
+              <IonButton className="ion-text-wrap" size="large">
+                <IonText className="ion-text"><h2>Counts</h2></IonText>
+              </IonButton>
+            </IonCol>
+            <IonCol className="ion-text-center">
+              <IonButton className="ion-text-wrap" size="large" >
+                <IonText className="ion-text"><h2>GLH</h2></IonText>
+                </IonButton>
+            </IonCol>
+          </IonRow>
+        </IonGrid>
+        <IonGrid>
+          <IonRow>
+            <IonCol className="ion-text-center">
+              <IonButton className="ion-text-wrap" size="large"  >
+                  <IonText className="ion-text"><h2>Stock <br /> Information</h2></IonText>
+              </IonButton>
+            </IonCol>
+            <IonCol className="ion-text-center">
+              <IonButton className="ion-text-wrap" size="large">
+                <IonText className="ion-text"><h2>Stock <br /> Adjustment</h2></IonText>
+              </IonButton>
+            </IonCol>
+          </IonRow>
+        </IonGrid>
       </IonContent>
     </IonPage>
   );
