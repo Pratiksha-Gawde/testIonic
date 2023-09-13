@@ -11,9 +11,6 @@
   --padding-top: 30px;
   --padding-bottom: 30px;
 
-  --maxWidth: 200px;
-  --height: 200px;
-  --text-transform: none;
 }
 
 ion-button {
@@ -30,21 +27,29 @@ ion-button {
   --padding-top: 30px;
   --padding-bottom: 30px;
 
-  --maxWidth: 10px;
-  --height: 500px;
-  --text-transform: none;
-  --margin: 100px;
-  --text-transform: lowercase;
+  --border-top-left-radius: 500px;
+
+  --height: 700px;
+ 
+
+  
 }
 
+.md .ion-text-wrap{
+  width: 180px;
+  height: 160px;
+  --border-radius: 20px;
+}
 .ion-text-wrap{
-  width: 300px;
+  width: 200px;
+  height: 200px;
+  --border-radius: 20px;
 }
 
 .ion-text{
-  text-transform: none;
+  /* text-transform: none; */
 }
 
-md .ion-text{
+.md .ion-text{
   text-transform: none;
 }

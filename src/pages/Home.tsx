@@ -22,12 +22,12 @@ const Home: React.FC = () => {
           <IonRow>
             <IonCol className="ion-text-center">
               <IonButton className="ion-text-wrap" size="large">
-                <IonText className="ion-text"><h2>Counts</h2></IonText>
+                <IonText className="ion-text"><h6>Counts</h6></IonText>
               </IonButton>
             </IonCol>
             <IonCol className="ion-text-center">
               <IonButton className="ion-text-wrap" size="large" >
-                <IonText className="ion-text"><h2>GLH</h2></IonText>
+                <IonText className="ion-text"><h6>GLH</h6></IonText>
                 </IonButton>
             </IonCol>
           </IonRow>
@@ -36,12 +36,12 @@ const Home: React.FC = () => {
           <IonRow>
             <IonCol className="ion-text-center">
               <IonButton className="ion-text-wrap" size="large"  >
-                  <IonText className="ion-text"><h2>Stock <br /> Information</h2></IonText>
+                  <IonText className="ion-text"><h6>Stock <br /> Information</h6></IonText>
               </IonButton>
             </IonCol>
             <IonCol className="ion-text-center">
               <IonButton className="ion-text-wrap" size="large">
-                <IonText className="ion-text"><h2>Stock <br /> Adjustment</h2></IonText>
+                <IonText className="ion-text"><h6>Stock <br /> Adjustment</h6></IonText>
               </IonButton>
             </IonCol>
           </IonRow>
