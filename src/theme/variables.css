@@ -47,10 +47,6 @@ ion-button {
   --border-radius: 20px;
 }
 
-.ion-text{
-  /* text-transform: none; */
-}
-
 .md .ion-text{
   text-transform: none;
 }
