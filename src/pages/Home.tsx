@@ -36,7 +36,7 @@ const Home: React.FC = () => {
           <IonRow>
             <IonCol className="ion-text-center">
               <IonButton className="ion-text-wrap" size="large"  >
-                  <IonText className="ion-text"><h6>Stock <br /> Information</h6></IonText>
+                  <IonText className="ion-text"><h6>Stock <br /> Info</h6></IonText>
               </IonButton>
             </IonCol>
             <IonCol className="ion-text-center">
