@@ -9,11 +9,8 @@ import {
   IonText
 } from "@ionic/react";
 import React from "react";
-import { logoIonic } from 'ionicons/icons';
 
 const AndroidHome: React.FC = () => {
-
-
 
   const openCountsApp = async () => {
 

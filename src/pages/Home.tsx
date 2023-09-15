@@ -5,14 +5,10 @@ import {
   IonButton,
   IonCol,
   IonRow,
-  IonIcon,
   IonText
 } from "@ionic/react";
 import React from "react";
-import { logoIonic } from 'ionicons/icons';
-
 const Home: React.FC = () => {
-
 
 
   return (
