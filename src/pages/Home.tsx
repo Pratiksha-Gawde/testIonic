@@ -35,11 +35,11 @@ const Home: React.FC = () => {
                   <IonText className="ion-text"><h6>Stock <br /> Information</h6></IonText>
               </IonButton>
             </IonCol>
-            <IonCol className="ion-text-center">
+            {/* <IonCol className="ion-text-center">
               <IonButton className="ion-text-wrap" size="large">
                 <IonText className="ion-text"><h6>Stock <br /> Adjustment</h6></IonText>
               </IonButton>
-            </IonCol>
+            </IonCol> */}
           </IonRow>
         </IonGrid>
       </IonContent>
